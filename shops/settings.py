@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.gis', # for gis to work properly
+    # custom installed apps
+    'nearbyshops',
 ]
 
 MIDDLEWARE = [
